@@ -1,0 +1,44 @@
+@import "../variable/color";
+
+.about-page {
+  padding: 40px 0;
+
+  .text {
+    p {
+      text-align: justify;
+    }
+  }
+
+  .list_of_sub_menu {
+    ul {
+      li {
+        margin-bottom: 10px;
+
+        a {
+          color: $primary;
+          font-size: 22px;
+          font-weight: 600;
+          text-decoration: underline;
+          padding-left: 24px;
+          position: relative;
+          transition: all linear .2s;
+
+          &:hover {
+            color: $black;
+          }
+
+          &::before {
+            position: absolute;
+            top: 12px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            background-color: $primary;
+            border-radius: 50%;
+            content: "";
+          }
+        }
+      }
+    }
+  }
+}

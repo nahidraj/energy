@@ -1,0 +1,54 @@
+@import "../variable/color";
+
+
+.bread-crumb {
+  width: 100%;
+  // background: url(../images/bread-crumb-image.png) no-repeat center;
+  background-color: $primary;
+  background-size: cover;
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    // background-color: rgba(0, 0, 0, 0.8);
+    padding: 60px 0;
+
+    .text {
+      position: relative;
+
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+      }
+
+      ul {
+        li {
+          position: relative;
+
+          a {
+            font-size: 16px;
+            color: $white;
+            font-weight: 500;
+            margin: 0 14px;
+          }
+
+          &::before {
+            position: absolute;
+            top: 0;
+            right: -4px;
+            content: "/";
+            color: $white;
+          }
+        }
+
+        li:first-child a {
+          color: $white;
+        }
+
+        li:last-child:before {
+          display: none;
+        }
+      }
+    }
+  }
+}

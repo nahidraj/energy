@@ -1,0 +1,113 @@
+@import "../variable/color";
+
+.energy-balance-and-overview {
+  padding: 40px 0;
+
+  .top-chart {
+    .title {
+      margin-bottom: 14px;
+
+      h4 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .middle-info {
+    margin-top: 40px;
+
+    h3 {
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #b8b8b8;
+    }
+
+    .balance-main {
+      padding-left: 80px;
+      border-left: 1px solid $black;
+
+      .balance-item {
+
+        .file {
+          font-size: 32px;
+          color: $primary;
+          width: 110px;
+          height: 70px;
+          border: 1px solid $black;
+          border-radius: 5px;
+          text-align: center;
+          line-height: 70px;
+          position: relative;
+
+          &::before {
+            position: absolute;
+            top: 34px;
+            left: calc(-100% - -26px);
+            width: 82px;
+            height: 1px;
+            background-color: $black;
+            content: "";
+          }
+        }
+
+        h6 {
+          font-size: 20px;
+          font-weight: 600;
+          padding-top: 8px;
+          margin-bottom: 14px;
+          padding-left: 30px;
+        }
+      }
+    }
+
+    .energy-overview {
+      .list-of-overview {
+        table {
+          tr {
+            td {
+              vertical-align: middle;
+            }
+          }
+        }
+
+        h4 {
+          font-size: 18px;
+          font-weight: 600;
+          color: $black;
+          transition: all linear .2s;
+        }
+
+        .pdf {
+
+          a {
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+            border-radius: 50%;
+            background-color: $primary;
+            color: $white;
+            font-size: 22px;
+          }
+        }
+
+        .graph {
+
+          a {
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+            border-radius: 50%;
+            background-color: crimson;
+            color: $white;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../variable/color";
+
+.executive-council {
+  padding: 40px 0;
+}
+
+.executive-council-item {
+  background-color: #f2f2f2;
+  min-height: 320px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #d8d8d8;
+  margin: 0 50px;
+  margin-bottom: 24px;
+
+  h6 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 0;
+    background-color: $primary;
+    color: $white;
+  }
+
+  .text {
+    padding: 24px;
+
+    a {
+      color: $black;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      transition: all linear .2s;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}

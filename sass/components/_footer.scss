@@ -1,0 +1,100 @@
+@import "../variable/color";
+
+footer {
+  background-color: #252525;
+  padding: 60px 0;
+
+  .about-footer {
+    p {
+      color: $white;
+      // padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 19px;
+
+      a {
+        color: $white;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+
+    ul {
+      margin-top: 20px;
+
+      li {
+        display: inline-block;
+        margin-right: 5px;
+
+        a {
+          color: $white;
+          width: 45px;
+          height: 45px;
+          border: 1px solid $primary;
+          text-align: center;
+          line-height: 45px;
+          border-radius: 50%;
+          font-size: 18px;
+          transition: all linear .2s;
+
+          &:hover {
+            background-color: $primary;
+            border-color: $primary;
+          }
+        }
+      }
+    }
+  }
+
+  h4 {
+    color: $white;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+  }
+
+  .important-links {
+    a {
+      color: $white;
+      margin-bottom: 8px;
+      font-size: 19px;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+}
+
+
+#button {
+  display: inline-block;
+  background-color: $primary;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+  line-height: 40px;
+  color: $white;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#button #button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}

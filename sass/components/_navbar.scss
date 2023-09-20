@@ -1,0 +1,248 @@
+@import "../variable/color";
+
+// navbar part start
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  z-index: 999;
+  background-color: $white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+  .navbar-nav {
+    li {
+      margin-left: 30px;
+      position: relative;
+
+      a {
+        font-size: 17px;
+        font-weight: 500;
+        color: $black;
+        transition: all 0.3s ease 0s;
+        line-height: 86px;
+
+        i {
+          font-size: 12px;
+          position: relative;
+          top: -1px;
+        }
+      }
+
+      a.active {
+        color: $primary;
+      }
+
+      .sub-dropdown-menu {
+        background-color: $white;
+        min-width: 220px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.3s ease 0s;
+
+        li {
+          margin: 0;
+
+          a {
+            line-height: 24px;
+            color: $black;
+            font-size: 15px;
+            font-weight: 500;
+            width: 100%;
+            display: block;
+            padding: 10px 18px;
+
+            i {
+              color: $black;
+              line-height: 44px;
+            }
+          }
+
+          &:hover> {
+            a {
+              background-color: $primary;
+              color: $white !important;
+
+              i {
+                color: $white;
+              }
+            }
+          }
+
+          .sub-dropdown-menu {
+            left: 100%;
+            top: 0;
+          }
+        }
+      }
+
+      &:hover> {
+        a {
+          color: $primary !important;
+        }
+
+        .sub-dropdown-menu {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  .search {
+    margin-right: 30px;
+
+    .main-icon {
+      color: $white;
+      font-size: 20px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+.mobile-menu {
+  padding: 8px 0;
+  z-index: 999;
+  background-color: $white;
+  width: 100%;
+  transition: all linear .2s;
+
+
+  .mobile-topbar {
+    .icon {
+      i {
+        width: 40px;
+        height: 40px;
+        background-color: $primary;
+        border-radius: 50%;
+        color: $white;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all linear .2s;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+
+  .mobile-menu-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .mobile-menu-main {
+    width: 320px;
+    height: 100%;
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    right: -320px;
+    z-index: 999;
+    overflow-y: scroll;
+    transition-duration: .3s;
+
+    .close-m-menu {
+      i {
+        width: 40px;
+        height: 40px;
+        background-color: $black;
+        text-align: center;
+        line-height: 40px;
+        color: $white;
+        font-size: 30px;
+        cursor: pointer;
+        transition: all linear .2s;
+
+        &:hover {
+          background-color: $primary;
+        }
+      }
+    }
+
+    .menu-body {
+      padding: 20px;
+
+      .menu-list {
+        padding-top: 40px;
+
+        ul {
+          li {
+            a {
+              font-size: 15px;
+              font-weight: 400;
+              color: #232F3E;
+              border-top: 1px solid #f2f2f2;
+              width: 100%;
+              line-height: 40px;
+              transition: all linear .2s;
+
+              &:hover {
+                color: #F28A31;
+              }
+
+              i {
+                width: 40px;
+                height: 40px;
+                background-color: #f2f2f2;
+                text-align: center;
+                line-height: 40px;
+                transition: all linear .2s;
+              }
+
+              &:hover {
+                i {
+                  background-color: #F28A31;
+                  color: #ffffff;
+                }
+              }
+            }
+
+            ul {
+              padding-left: 20px;
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile-menu-overlay {
+  transition-duration: .3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show-mobile-menu-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.show-mobile-menu {
+  right: 0 !important;
+}
+
+.mobile-sticky-top {
+  padding: 10px 0 !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,21 @@
+@import "../variable/color";
+
+.energy-statistics {
+  padding: 40px 0;
+
+  .statistics-item {
+    border: 1px solid $black;
+    border-radius: 5px;
+    padding: 24px 14px;
+
+    .text {
+      padding-top: 14px;
+
+      h5 {
+        font-size: 18px;
+        font-weight: 600;
+        color: $black;
+      }
+    }
+  }
+}

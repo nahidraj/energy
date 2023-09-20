@@ -1,0 +1,81 @@
+@import "../variable/color";
+
+.publication{
+  margin-top: 40px;
+}
+.publication-main {
+  .publication-item {
+    margin-bottom: 14px;
+
+    .publication-title {
+      border-bottom: 1px solid #CECECE;
+      margin-bottom: 30px;
+
+      h3 {
+        font-size: 24px;
+        padding-bottom: 20px;
+      }
+    }
+
+    .single-item {
+      border: 1px solid #eaeaea;
+      position: relative;
+      z-index: 99;
+      transition: all linear .2s;
+      margin-bottom: 24px;
+
+      &::before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f1f1f1;
+        content: "";
+        z-index: -1;
+        clip-path: polygon(0 38%, 100% 67%, 100% 100%, 0% 100%);
+      }
+
+      .image {
+        padding: 20px;
+        height: 200px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .text {
+        background-color: #F1F1F1;
+        padding: 20px 20px;
+        height: 60px;
+
+        h4 {
+          font-size: 16px;
+          font-weight: 500;
+          color: $black;
+          transition: all linear .2s;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+
+        h4 {
+          color: $primary;
+        }
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

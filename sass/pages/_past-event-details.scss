@@ -1,0 +1,86 @@
+@import "../variable/color";
+
+.past-event-details {
+  padding: 40px 0;
+
+  .event-details-main .middle-content {
+    background-color: #fff;
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.1);
+  }
+
+  .event-details-main .text {
+    padding: 30px;
+  }
+
+  .event-details-main .text h1 {
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+  }
+
+  .event-details-main .text h3 {
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+  }
+
+  .event-details-main .text ul li {
+    color: #646464;
+  }
+
+  .event-details-main .text .map {
+    width: 100%;
+    height: 260px;
+  }
+
+  .event-details-main .text .date-and-time {
+    width: 100%;
+    min-height: 260px;
+    background-color: #171C49;
+    padding: 20px;
+  }
+
+  .event-details-main .text .date-and-time table td {
+    color: $white;
+  }
+
+  .event-details-main .text .date-and-time table td i {
+    color: $primary;
+    padding-right: 10px;
+  }
+
+  .event-details-main .text .organizer ul li {
+    margin: 8px 0px;
+  }
+
+  .event-details-main .text .organizer ul li i {
+    padding-right: 8px;
+  }
+
+  .executive-council-item {
+    margin: 0 0 24px 0;
+
+    h6 {
+      font-size: 20px;
+    }
+  }
+
+  .quick-info-btn {
+    font-size: 22px;
+    font-weight: 500;
+    i {
+      width: 45px;
+      height: 45px;
+      background-color: $white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 45px;
+      color: $black;
+      font-size: 24px;
+      margin-left: 20px;
+    }
+  }
+}

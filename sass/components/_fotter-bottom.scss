@@ -1,0 +1,12 @@
+@import "../variable/color";
+
+.footer-bottom {
+  background-color: $primary;
+
+  p {
+    color: $white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+}

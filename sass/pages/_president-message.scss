@@ -1,0 +1,73 @@
+@import "../variable/color";
+
+.president-message {
+  background-color: #F4F4F4;
+  padding: 40px 0;
+  padding-bottom: 60px;
+}
+
+.president-message .left-info {
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.2);
+  background-color: $white;
+}
+
+.president-message .img {
+  height: 390px;
+}
+
+.president-message .img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.president-message .person-text h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: $primary;
+  margin-bottom: 10px;
+}
+
+.president-message .person-text {
+  background-color: #f2f2f2;
+}
+
+.president-message .person-text .dept {
+  font-size: 18px;
+  color: $black;
+}
+
+.president-message .text .title h4 {
+  font-size: 22px;
+  color: $black;
+  position: relative;
+}
+
+.president-message .text .title h4::before {
+  width: 70px;
+  height: 3px;
+  background-color: #b8b8b8;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  content: "";
+  border-radius: 5px;
+}
+
+.president-message .text {
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(221, 221, 221, 0.6);
+  padding: 40px;
+  min-height: 500px;
+}
+
+.president-message .text .title-bio h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: $black;
+}
+
+.president-message .bio p {
+  line-height: 26px;
+  color: $black;
+  text-align: justify;
+}
