@@ -23,7 +23,7 @@
 
 <body>
   <!-- navbar part start -->
-  <nav class="navbar navbar-expand-lg d-none d-xl-block">
+  <nav class="navbar navbar-expand-lg d-none d-xl-block sticky-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="images/logo.png" alt="logo" width="180">
@@ -96,7 +96,7 @@
         <div class="common-container">
           <div class="topbar-main d-flex justify-content-between align-items-center">
             <div class="logo">
-              <img src="images/logo.jpg" alt="n-logo-1" class="img-fluid" width="100">
+              <img src="images/logo.png" alt="n-logo-1" class="img-fluid" width="150">
             </div>
             <div class="icon">
               <i class="bi bi-list-nested"></i>
@@ -264,23 +264,23 @@
         <h3>News & Gallery</h3>
       </div>
       <div class="news-gallery-main">
-        <div class="row">
-          <div class="col-lg-4">
+        <div class="row g-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="news--item">
               <div class="news--image">
                 <img src="images/news-1.jpg" alt="news-1" class="img-fluid w-100">
               </div>
-              <div class="news--text">
+              <div class="news--text d-flex flex-column">
                 <div class="dates">
                   <ul class="list-unstyled">
                     <li><a href="" class="badge bg-info text-white">4 July, 2023</a></li>
                   </ul>
                 </div>
-                <a href="" class="news--title">Plan Your Project With Your webtest Software</a>
+                <a href="" class="news--title"> webtest Software</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="gallery--item">
               <div class="image">
                 <img src="images/gallery-1.jpg" alt="gallery-1" class="img-fluid w-100">
@@ -293,7 +293,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="gallery--item">
               <div class="image">
                 <img src="images/gallery-2.jpg" alt="gallery-1" class="img-fluid w-100">
@@ -306,13 +306,43 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4"></div>
         </div>
       </div>
     </div>
   </section>
   <!-- news and gallery part end -->
 
+  <!-- counter part start -->
+  <!-- <section class="counter">
+    <div class="counter-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="row">
+              <div class="col-lg-3 col-12 mb-3 mb-sm-4 mb-lg-0 align-self-center">
+                <div class="common-heading text-center">
+                  <h3 class="text-white fs-2">Site visit Counter</h3>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 d-flex justify-content-end">
+                <div class="counter-item text-center">
+                  <h2>2050</h2>
+                  <h4>Bangladesh</h4>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 ms-auto">
+                <div class="counter-item text-center">
+                  <h2>21540</h2>
+                  <h4>International</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- counter part end -->
   <!-- footer part start -->
 
   <a id="button"><i class="bi bi-chevron-up"></i></a>
@@ -325,14 +355,14 @@
             <!-- <img src="images/logo.jpg" alt="logo" width="240px"> -->
             <h4>Contact Us</h4>
             <div class="row">
-              <div class="col-lg-6"> 
+              <div class="col-lg-6">
                 <p>Bangladesh Energy Society</p>
                 <p>Momtaz plaza (5<sup>th</sup> Flor), <br> House #07, Road #04, <br> Dhanmondi, Dhaka 1205</p>
                 <p>Email: <a href="mailto:info@energysociety.org.bd">info@energysociety.org.bd</a></p>
                 <p>Phone: <a href="tel: +880 24618439">+880 24618439</a></p>
               </div>
               <div class="col-lg-6">
-                <div class="more-info ms-5">
+                <div class="more-info mt-3 mt-lg-0 ms-xl-5">
                   <ul class="list-unstyled mt-0">
                     <li><a href=""><i class="bi bi-facebook"></i></a></li>
                     <li><a href=""><i class="bi bi-twitter"></i></a></li>
@@ -345,7 +375,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
           <h4>Membership</h4>
           <div class="important-links">
             <ul>
@@ -364,6 +394,23 @@
               </li>
             </ul>
           </div>
+          <div class="mt-4">
+            <h4 class="pb-3">Site Visit</h4>
+            <div class="row">
+              <div class="col-lg-6 col-6 col-xl-6">
+                <div class="counter-item text-center">
+                  <h2>2050</h2>
+                  <h5>Bangladesh</h5>
+                </div>
+              </div>
+              <div class="col-lg-6 col-6 col-xl-6">
+                <div class="counter-item text-center">
+                  <h2>2050</h2>
+                  <h5>International</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -379,7 +426,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
-          <div class="branding text-end">
+          <div class="branding text-md-end">
             <p>Developed By: <a href="" target="_blank" class="text-white">Nogor Solutions Limited</a></p>
           </div>
         </div>

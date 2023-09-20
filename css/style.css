@@ -157,6 +157,11 @@ nav .search .main-icon {
   cursor: pointer;
 }
 
+.sticky-top {
+  top: -100px;
+  transition: 0.5s;
+}
+
 .mobile-menu {
   padding: 8px 0;
   z-index: 999;
@@ -487,6 +492,7 @@ nav .search .main-icon {
   transition: all 0.3s ease 0s;
 }
 .news--item .news--text {
+  min-height: 146px;
   padding: 24px;
 }
 .news--item .news--text .dates ul li {
@@ -532,7 +538,6 @@ nav .search .main-icon {
 
 .gallery--item {
   background-color: #f2f2f2;
-  min-height: 415px;
   border-radius: 10px;
 }
 .gallery--item .image {
@@ -541,6 +546,7 @@ nav .search .main-icon {
 }
 .gallery--item .text {
   padding: 24px;
+  min-height: 146px;
 }
 .gallery--item .text .title {
   font-size: 20px;
@@ -920,6 +926,24 @@ footer .important-links a:hover {
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
 }
 
+.counter-item {
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.counter-item h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.counter-item h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .content-page {
   padding: 80px 0;
 }
@@ -1166,10 +1190,6 @@ footer .important-links a:hover {
   background-color: #ffffff;
 }
 
-.president-message .img {
-  height: 390px;
-}
-
 .president-message .img img {
   height: 100%;
   object-fit: cover;
@@ -1212,7 +1232,7 @@ footer .important-links a:hover {
   background: #fff;
   box-shadow: 0 5px 20px rgba(221, 221, 221, 0.6);
   padding: 40px;
-  min-height: 500px;
+  height: 100%;
 }
 
 .president-message .text .title-bio h4 {
@@ -1544,21 +1564,17 @@ footer .important-links a:hover {
 }
 .publication-main .publication-item .single-item .image {
   padding: 20px;
-  height: 200px;
 }
 .publication-main .publication-item .single-item .image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 .publication-main .publication-item .single-item .text {
   background-color: #F1F1F1;
   padding: 20px 20px;
-  height: 60px;
+  padding-top: 0;
 }
 .publication-main .publication-item .single-item .text h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #232323;
   transition: all linear 0.2s;

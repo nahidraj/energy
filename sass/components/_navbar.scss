@@ -112,6 +112,11 @@ nav {
   }
 }
 
+.sticky-top {
+  top: -100px;
+  transition: 0.5s;
+}
+
 
 .mobile-menu {
   padding: 8px 0;

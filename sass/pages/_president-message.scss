@@ -11,9 +11,6 @@
   background-color: $white;
 }
 
-.president-message .img {
-  height: 390px;
-}
 
 .president-message .img img {
   height: 100%;
@@ -57,7 +54,7 @@
   background: #fff;
   box-shadow: 0 5px 20px rgba(221, 221, 221, 0.6);
   padding: 40px;
-  min-height: 500px;
+  height: 100%;
 }
 
 .president-message .text .title-bio h4 {

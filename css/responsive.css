@@ -1,9 +1,413 @@
+@media (min-width: 1400px) and (max-width: 1699.98px) {
+  .past-events-list .events-main .event-item .topic {
+    max-width: 1205px;
+  }
+  .upcomming-events .events-main .event-item .topic {
+    max-width: 1205px;
+  }
+}
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  p {
+    line-height: 26px;
+  }
   nav .navbar-nav li {
     margin-left: 26px;
   }
   nav .navbar-nav li a {
     font-size: 15px;
+  }
+  .banner .banner-content h1 {
+    font-size: 55px;
+    line-height: 73px;
+  }
+  .common-heading h3 {
+    font-size: 22px;
+  }
+  .about .events-part .events-main .event-item .topic {
+    width: 320px;
+  }
+  .about .about-info .important-list ul li a {
+    font-size: 19px;
+  }
+  .about .events-part .events-main .important-list ul li a {
+    font-size: 19px;
+  }
+  .about .charts-main .important-list ul li a {
+    font-size: 19px;
+  }
+  .executive-council-item {
+    margin: 12px 30px;
+  }
+  .past-events-list .events-main .event-item .topic {
+    max-width: 905px;
+  }
+  .upcomming-events .events-main .event-item .topic {
+    max-width: 905px;
+  }
+  .upcomming-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .past-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .past-event-details .event-details-main .text {
+    padding: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  nav .navbar-nav li {
+    margin-left: 26px;
+  }
+  nav .navbar-nav li a {
+    font-size: 15px;
+  }
+  .banner .banner-content h1 {
+    font-size: 48px;
+    line-height: 63px;
+  }
+  .common-heading h3 {
+    font-size: 22px;
+  }
+  .about .events-part .events-main .event-item .topic {
+    width: 280px;
+  }
+  .about .about-info .important-list ul li a {
+    font-size: 17px;
+  }
+  .about .events-part .events-main .important-list ul li a {
+    font-size: 17px;
+  }
+  .about .charts-main .important-list ul li a {
+    font-size: 17px;
+  }
+  .about .events-part .events-main .event-item .date h5 {
+    font-size: 16px;
+  }
+  .about .events-part .events-main .event-item .date h6 {
+    font-size: 15px;
+  }
+  footer .about-footer ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+  }
+  footer .about-footer p {
+    font-size: 17px;
+  }
+  footer .important-links a {
+    font-size: 17px;
+  }
+  .executive-council-item {
+    margin: 12px 0px;
+  }
+  .past-events-list .events-main .event-item .topic {
+    max-width: 705px;
+  }
+  .upcomming-events .events-main .event-item .topic {
+    max-width: 705px;
+  }
+  .upcomming-event-details .event-details-main .text h1 {
+    font-size: 22px;
+  }
+  .upcomming-event-details .event-details-main .text {
+    padding: 18px;
+  }
+  .upcomming-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .upcomming-event-details .executive-council-item h6 {
+    font-size: 17px;
+  }
+  .past-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .past-event-details .event-details-main .text {
+    padding: 20px;
+  }
+  .past-event-details .executive-council-item h6 {
+    font-size: 18px;
+  }
+  .past-event-details .quick-info-btn {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner .banner-slider .overlay {
+    padding: 150px 0;
+  }
+  .banner .banner-content h1 {
+    font-size: 53px;
+    line-height: 64px;
+  }
+  .about .about-bes {
+    margin-bottom: 24px;
+  }
+  .about .about-info .important-list ul li a {
+    font-size: 18px;
+  }
+  .about .events-part .events-main .event-item .topic {
+    width: 566px;
+  }
+  .about .events-part .events-main .important-list ul li a {
+    font-size: 18px;
+  }
+  .about .events-part {
+    margin-bottom: 34px;
+  }
+  .about .charts-main .important-list ul li a {
+    font-size: 18px;
+  }
+  footer .about-footer p {
+    font-size: 18px;
+  }
+  footer .important-links a {
+    font-size: 18px;
+  }
+  .executive-council-item {
+    margin: 12px 0px;
+  }
+  .past-events-list .events-main .event-item .topic {
+    max-width: 505px;
+  }
+  .upcomming-events .events-main .event-item .topic {
+    max-width: 505px;
+  }
+  .upcomming-event-details .event-details-main .text h1 {
+    font-size: 22px;
+  }
+  .upcomming-event-details .event-details-main .text {
+    padding: 18px;
+  }
+  .upcomming-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .upcomming-event-details .executive-council-item h6 {
+    font-size: 17px;
+  }
+  .past-event-details .event-details-main .text h1 {
+    font-size: 20px;
+  }
+  .past-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .past-event-details .event-details-main .text {
+    padding: 20px;
+  }
+  .past-event-details .executive-council-item h6 {
+    font-size: 18px;
+  }
+  .past-event-details .quick-info-btn {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner .banner-slider .overlay {
+    padding: 130px 0;
+  }
+  .banner .banner-content h1 {
+    font-size: 42px;
+    line-height: 54px;
+  }
+  .about .about-bes {
+    margin-bottom: 24px;
+  }
+  .about .about-info .important-list ul li a {
+    font-size: 18px;
+  }
+  .about .events-part .events-main .event-item .topic {
+    width: 380px;
+  }
+  .about .events-part .events-main .important-list ul li a {
+    font-size: 18px;
+  }
+  .about .events-part {
+    margin-bottom: 34px;
+  }
+  .about .charts-main .important-list ul li a {
+    font-size: 18px;
+  }
+  .counter .counter-item {
+    width: 246px;
+  }
+  footer .about-footer p {
+    font-size: 18px;
+  }
+  footer .important-links a {
+    font-size: 18px;
+  }
+  .bread-crumb .overlay .text h2 {
+    font-size: 25px;
+  }
+  .executive-council-item {
+    min-height: unset !important;
+  }
+  .past-events-list .events-main .event-item .topic {
+    max-width: 348px;
+  }
+  .upcomming-events .events-main .event-item .topic {
+    max-width: 348px;
+  }
+  .upcomming-event-details .event-details-main .text h1 {
+    font-size: 22px;
+  }
+  .upcomming-event-details .event-details-main .text {
+    padding: 18px;
+  }
+  .upcomming-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .upcomming-event-details .executive-council-item h6 {
+    font-size: 17px;
+  }
+  .past-event-details .event-details-main .text h1 {
+    font-size: 20px;
+  }
+  .past-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .past-event-details .event-details-main .text {
+    padding: 20px;
+  }
+  .past-event-details .executive-council-item h6 {
+    font-size: 18px;
+  }
+  .past-event-details .quick-info-btn {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .common-heading h3 {
+    font-size: 22px;
+  }
+  .banner .banner-slider .overlay {
+    padding: 110px 0;
+  }
+  .banner .banner-content h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .about {
+    padding-top: 60px;
+  }
+  .about .about-bes {
+    margin-bottom: 24px;
+  }
+  .about .about-info .important-list ul li a {
+    font-size: 18px;
+  }
+  .about .events-part .events-main .event-item .topic {
+    width: 254px;
+  }
+  .about .events-part .events-main .event-item .date h5 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .about .events-part .events-main .important-list ul li a {
+    font-size: 18px;
+  }
+  .about .events-part {
+    margin-bottom: 34px;
+  }
+  .about .charts-main .important-list ul li a {
+    font-size: 18px;
+  }
+  .news--item .news--text {
+    min-height: unset;
+  }
+  .gallery--item .text {
+    min-height: unset !important;
+  }
+  .counter .counter-item {
+    width: 246px;
+  }
+  footer .about-footer p {
+    font-size: 18px;
+  }
+  footer .important-links a {
+    font-size: 18px;
+  }
+  .counter .counter-item {
+    width: 100%;
+    margin: 10px 0 !important;
+  }
+  .footer-bottom {
+    padding: 10px 0;
+  }
+  .footer-bottom p {
+    line-height: 26px;
+  }
+  .bread-crumb .overlay {
+    padding: 34px 0;
+  }
+  .bread-crumb .overlay .text h2 {
+    font-size: 20px;
+  }
+  .executive-council-item {
+    min-height: unset !important;
+    margin: 12px 0px;
+  }
+  .president-message .text {
+    padding: 20px;
+  }
+  .past-events-list .events-main .event-item .topic {
+    max-width: 200px;
+  }
+  .past-events-list .events-main .event-item .date h5 {
+    font-size: 17px;
+  }
+  .past-events-list .events-main .event-item .date h6 {
+    font-size: 16px;
+  }
+  .upcomming-events .events-main .event-item .topic {
+    max-width: 200px;
+  }
+  .upcomming-events .events-main .event-item .date h5 {
+    font-size: 17px;
+  }
+  .upcomming-events .events-main .event-item .date h6 {
+    font-size: 16px;
+  }
+  .upcomming-event-details .event-details-main .text h1 {
+    font-size: 20px;
+  }
+  .upcomming-event-details .event-details-main .text {
+    padding: 18px;
+  }
+  .upcomming-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .upcomming-event-details .executive-council-item h6 {
+    font-size: 17px;
+  }
+  .past-event-details .event-details-main .text h1 {
+    font-size: 20px;
+  }
+  .past-event-details .event-details-main .text h4 {
+    font-size: 18px;
+  }
+  .past-event-details .event-details-main .text {
+    padding: 20px;
+  }
+  .past-event-details .executive-council-item h6 {
+    font-size: 18px;
+  }
+  .past-event-details .quick-info-btn {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .energy-balance-and-overview .middle-info .energy-overview .list-of-overview h4 {
+    font-size: 16px;
+  }
+  .energy-balance-and-overview .top-chart .title h4 {
+    font-size: 18px;
   }
 }
 
