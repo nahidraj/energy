@@ -1529,6 +1529,10 @@ footer .important-links a:hover {
   color: #232323;
 }
 
+.corporate_members .statistics-item {
+  background-color: #f2f2f2;
+}
+
 .publication {
   margin-top: 40px;
 }
