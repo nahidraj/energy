@@ -35,9 +35,6 @@
   .about .charts-main .important-list ul li a {
     font-size: 19px;
   }
-  .executive-council-item {
-    margin: 12px 30px;
-  }
   .past-events-list .events-main .event-item .topic {
     max-width: 905px;
   }
@@ -52,6 +49,12 @@
   }
   .past-event-details .event-details-main .text {
     padding: 20px;
+  }
+  .council__item {
+    padding: 15px 12px !important;
+  }
+  .executive-council-item h6 {
+    font-size: 20px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -136,6 +139,12 @@
     font-size: 20px;
     margin-bottom: 20px;
   }
+  .council__item {
+    padding: 15px 12px !important;
+  }
+  .executive-council-item h6 {
+    font-size: 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .banner .banner-slider .overlay {
@@ -205,6 +214,12 @@
   .past-event-details .quick-info-btn {
     font-size: 20px;
     margin-bottom: 20px;
+  }
+  .council__item {
+    padding: 15px 12px !important;
+  }
+  .executive-council-item h6 {
+    font-size: 20px;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -281,6 +296,12 @@
   .past-event-details .quick-info-btn {
     font-size: 20px;
     margin-bottom: 20px;
+  }
+  .council__item {
+    padding: 15px 12px !important;
+  }
+  .executive-council-item h6 {
+    font-size: 22px;
   }
 }
 @media (max-width: 575.98px) {
@@ -407,6 +428,12 @@
     font-size: 16px;
   }
   .energy-balance-and-overview .top-chart .title h4 {
+    font-size: 18px;
+  }
+  .council__item {
+    padding: 12px 12px !important;
+  }
+  .executive-council-item h6 {
     font-size: 18px;
   }
 }

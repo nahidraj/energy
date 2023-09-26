@@ -1146,19 +1146,21 @@ footer .important-links a:hover {
   padding: 40px 0;
 }
 
+.council__item {
+  padding: 15px 50px;
+}
+
 .executive-council-item {
   background-color: #f2f2f2;
-  min-height: 320px;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #d8d8d8;
-  margin: 0 50px;
-  margin-bottom: 24px;
+  height: 100%;
 }
 .executive-council-item h6 {
   font-size: 24px;
   font-weight: 600;
-  padding: 12px 0;
+  padding: 12px 12px;
   background-color: #0E83B7;
   color: #ffffff;
 }
@@ -1176,7 +1178,9 @@ footer .important-links a:hover {
   color: #0E83B7;
 }
 .executive-council-item .text p {
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 500;
 }
 
 .president-message {

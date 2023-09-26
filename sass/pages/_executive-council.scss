@@ -4,19 +4,23 @@
   padding: 40px 0;
 }
 
+.council__item{
+  padding: 15px 50px;
+}
+
 .executive-council-item {
   background-color: #f2f2f2;
-  min-height: 320px;
+  // min-height: 534px;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #d8d8d8;
-  margin: 0 50px;
-  margin-bottom: 24px;
+  height: 100%;
+
 
   h6 {
     font-size: 24px;
     font-weight: 600;
-    padding: 12px 0;
+    padding: 12px 12px;
     background-color: $primary;
     color: $white;
   }
@@ -37,7 +41,9 @@
     }
 
     p {
-      font-size: 14px;
+      font-size: 15px;
+      line-height: 26px;
+      font-weight: 500;
     }
   }
 }
